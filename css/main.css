@@ -10,10 +10,23 @@
    Base styles: opinionated defaults
    ========================================================================== */
 
+html, body {
+    height: 100%;
+}
+
 html {
     color: #222;
     font-size: 1em;
     line-height: 1.4;
+}
+
+body {
+    align-items: center;
+    background-color: #e74c3c;
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    font-size: 70px;
 }
 
 /*
@@ -288,4 +301,22 @@ textarea {
     h3 {
         page-break-after: avoid;
     }
+}
+
+p, h1, h2 {
+    color: #ecf0f1;
+    font-family: 'Open Sans', sans-serif;
+    margin: 25px;
+}
+
+h1 {
+    font-size: 0.5em;
+}
+
+h2 {
+    font-size: 1em;
+}
+
+img {
+   width: 200px;
 }
